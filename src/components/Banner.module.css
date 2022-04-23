@@ -1,0 +1,32 @@
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.container img {
+    width: 100%;
+}
+
+.textContainer {
+    /* color: rgb(91, 130, 196); */
+    color: rgb(65, 111, 189);
+    position: absolute;
+    top: 170px;
+    left: 168px;
+}
+
+.textContainer h1 {
+    font-size: 12rem;
+}
+.textContainer p {
+    /* color: rgb(37, 75, 141); */
+    color: rgb(91, 130, 196);
+    font-size: 6rem;
+    margin-top: 20px;
+}
+
+.textContainer p span {
+    color: rgb(148, 171, 63);
+    filter: blur(1.5px);
+    font-weight: bold;
+}

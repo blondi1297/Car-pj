@@ -1,0 +1,28 @@
+.container img {
+    display: block;
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.container {
+    margin: 10px;
+    background-color: #ececec;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgb(189, 189, 189);
+}
+
+.container h {
+    margin: 30px 25px 30px;
+    /* color: rgb(93, 105, 23); */
+    color: rgb(118, 95, 14);
+}
+
+.container p {
+    margin: 20px 25px 20px;
+    background-color: rgb(31, 181, 166);
+    width: fit-content;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+}

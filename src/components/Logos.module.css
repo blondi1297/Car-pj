@@ -1,0 +1,21 @@
+.container {
+    text-align: center;
+    margin: 60px;
+}
+
+.container h {
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(71, 46, 17);
+}
+
+.container div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;    
+}
+
+.container div img {
+    width: 300px;
+}
