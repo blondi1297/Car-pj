@@ -15,6 +15,7 @@ class App extends Component {
         <Search />
         <Logos />
         <Footer />
+        <Footer />
       </div>
     )
   }
