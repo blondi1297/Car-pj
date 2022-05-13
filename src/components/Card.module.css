@@ -1,28 +1,65 @@
 .container img {
-    display: block;
-    width: 300px;
-    margin-bottom: 30px;
+  display: block;
+  width: 300px;
+  margin-bottom: 30px;
 }
 
 .container {
-    margin: 10px;
-    background-color: #ececec;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 5px 5px 10px rgb(189, 189, 189);
+  margin: 10px;
+  background-color: #ececec;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 5px 5px 10px rgb(189, 189, 189);
 }
 
-.container h {
-    margin: 30px 25px 30px;
-    /* color: rgb(93, 105, 23); */
-    color: rgb(118, 95, 14);
+.container h1 {
+  margin: 30px 25px 30px;
+  /* color: rgb(93, 105, 23); */
+  color: rgb(118, 95, 14);
+  font-size: 15px;
 }
 
 .container p {
-    margin: 20px 25px 20px;
-    background-color: rgb(31, 181, 166);
-    width: fit-content;
-    color: #fff;
-    border-radius: 5px;
-    padding: 5px;
+  margin: 20px 25px 20px;
+  background-color: rgb(31, 181, 166);
+  width: fit-content;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.counter {
+  position: relative;
+}
+
+.counter img {
+  position: absolute;
+  width: 25px;
+  left: 183px;
+  bottom: -10px;
+  box-shadow: 1px 1px 2px rgb(84, 84, 84), -1px -1px 2px rgb(255, 255, 255);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.counter .upsvg {
+  left: 216px;
+}
+.numbersit {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 2px rgb(84, 84, 84), -1px -1px 2px rgb(255, 255, 255);
+}
+
+.counter span {
+  position: absolute;
+  right: 28px;
+  bottom: 23px;
+}
+#deactive {
+    opacity: 0.3;
+    cursor: context-menu;
 }
