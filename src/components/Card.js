@@ -37,7 +37,7 @@ class Card extends Component {
           <div className={styles.numbersit}></div>
           <img className={styles.upsvg} src={up} alt="arrow" onClick={this.upHandler}/>
           <img className={styles.downsvg} src={down} alt="arrow" onClick={this.downHandler} 
-               id={!counter && styles.deactive}/>
+               id={!counter ? styles.deactive : ""}/>
         </div>
        </div>
     );
