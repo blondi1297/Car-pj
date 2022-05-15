@@ -11,7 +11,7 @@ const Navbar = () => {
                 <ul className={styles.list}>
                     <li><Link to="/">home page</Link></li>
                     <li><Link to="/products">products</Link></li>
-                    <li><Link to="/aboutus">about us</Link></li>
+                    <li><Link to="/products/us">about us</Link></li>
                 </ul>
             </div>
             <div className={styles.logo}>

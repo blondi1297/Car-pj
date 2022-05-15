@@ -26,7 +26,12 @@ class Cards extends Component {
                 <Card image={audir8} name="audi r8" cost="155k $"/>
                 <Card image={audis5} name="audi s5" cost="60k $"/> */}
         {this.state.carData.map((car) => (
-          <Card key={car.id} image={car.image} name={car.name} cost={car.cost} />
+          <Card
+            key={car.id}
+            image={car.image}
+            name={car.name}
+            cost={car.cost}
+            id={car.id} />
         ))}
       </div>
     );
